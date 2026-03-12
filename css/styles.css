@@ -68,3 +68,24 @@ box-shadow:0 3px 10px rgba(0,0,0,0.1);
     color: white;
    text-decoration-line: none;
 }
+
+/* ================================= */
+/* SEARCH PAGE */
+/* ================================= */
+
+.search-header{
+padding:60px;
+text-align:center;
+background:white;
+}
+
+.search-results{
+padding:60px;
+}
+
+.results-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+margin-top:30px;
+}
