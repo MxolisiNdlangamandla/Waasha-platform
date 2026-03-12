@@ -3,3 +3,17 @@ git add .
 git commit -m "Describe the change"
 git pull
 git push
+
+##
+The Git Safety Trick: Branches
+Instead of always coding on main, developers create branches to test new features.
+If something breaks, your main project stays safe.
+
+1️⃣ See your current branch : git branch
+The * shows your current branch. eg * main
+2️⃣ Create a new branch
+git branch feature-name , eg: git branch booking-feature
+3️⃣ Switch to that branch : git checkout feature-name .eg : git checkout booking-feature
+Now everything we code goes into that branch, not main code.
+
+or git checkout -b booking-feature. | This creates and switches in one command.
